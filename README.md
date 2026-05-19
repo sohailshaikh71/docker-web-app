@@ -1,21 +1,33 @@
 # Docker Web App 🚀
 
 ## 📌 Description
-This project shows how to run a simple Python Flask app using Docker.
+This project demonstrates how to containerize a simple Python Flask application using Docker.
 
-## ⚙️ Tech Used
+## ⚙️ Tech Stack
 - Python
 - Flask
 - Docker
 
-## 🐳 How to Run
+## 📂 Project Structure
+.
+├── app.py  
+├── requirements.txt  
+├── Dockerfile  
+└── README.md  
 
-Build:
+## 🐳 Docker Setup
+
+### Build Image
 docker build -t docker-web-app .
 
-Run:
+### Run Container
 docker run -p 5000:5000 docker-web-app
 
-## 🌐 Output
-App runs on:
+## 🌐 Access Application
+Open browser:
 http://localhost:5000
+
+## 🎯 Key Learning
+- Dockerfile creation  
+- Containerization  
+- Running app inside container  
